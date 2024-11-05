@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('/assets/images/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, background-filter(blur(40%)));
+}
+
+main{
+    display: flex;
+    justify-items:center;
+    width: 50%;   
+    margin-top: 1rem;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1rem;
+    border-radius: 1rem;
+    background-color: #f0e8c2;
+}
+
+.about-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content article{
+    padding: 7px;
+}
+
+.content p{
+    padding: 10px;
+}
+
+.ingredients-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredients-header{
+    display: flex;
+    justify-content: start;
+}
+
+.ingredients-content ul{
+    padding: 7px;
+}
+
+.ingredients-content li{
+    padding: 5px 7px;
+    margin-left: 1rem;
+}
+
+.preparation-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.preparation-content p{
+    margin-top: 1rem;
+}
